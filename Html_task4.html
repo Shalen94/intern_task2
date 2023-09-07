@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(rgb(66, 66, 227),rgb(207, 57, 57));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .table1{
+            margin-left: auto;
+            margin-right: auto;
+            text-align-last: left;
+            background: linear-gradient(red,blue);
+            padding: 10px;
+            margin-top: 10%;
+        }
+        .submit{
+            width: 100px;
+            margin-left:45%;
+            margin-right: auto;
+            background: linear-gradient(rgb(241, 135, 135),rgb(127, 127, 230));
+        }
+        .submit:hover{
+            width: 150px;
+            margin-left: 44%;
+            height: 25px;
+        }
+        div{
+            text-align: center;
+            padding: 10px;
+            margin-top: 7%;
+        }
+        a{
+            padding: 10px;
+            text-decoration: none;
+        }
+        a:hover{
+            color: blue;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table class="table1">
+        <tr>
+            <td class="fname">Full Name: </td>
+            <td> <input type="text" name="fname" id="fname" placeholder="enter your name"></td>
+        </tr>
+        <tr>
+            <td class="username">Username:</td>
+            <td><input type="text" name="username" id="username" placeholder="Your ID name "></td>
+        </tr>
+        <tr>
+            <td class="password">Password:</td>
+            <td><input type="password" name="password" id="password" placeholder="enter your password"></td>
+
+        </tr>
+        <tr>
+            <td class="repassword">Re Password</td>
+            <td><input type="password" name="repassword" id="repassword" placeholder="conform your password"></td>
+        </tr>
+        <tr>
+            <td class="address">Address:</td>
+            <td><input type="text" name="address" id="address" placeholder="current address"></td>
+        </tr>
+        <tr>
+            <td class="age">Age:</td>
+            <td><input type="number" name="age" id="age" placeholder="20"></td>
+        </tr>
+        <tr>
+            <td class="gender">Gender:</td>
+            <td><select name="gender" id="gender">
+                <option value="">--select your gender--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select></td>
+        </tr>
+
+    </table>
+    <br>
+    <input class="submit" type="submit" value="Save">
+
+    <div >
+        <a href="Html_task3.html" >Previous Task</a>
+        <a href="index.html" >Home</a>
+        <a href="Html_task5.html">Next Task</a>
+    </div>
+</body>
+</html>
